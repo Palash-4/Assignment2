@@ -1,1 +1,15 @@
-@import "tailwindcss"
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import "tailwindcss";
+
+@layer base{
+    body{
+        font-family: "Work Sans", sans-serif;
+    }
+}
+
+@layer utilities {
+  .bg-techwave {
+    background: linear-gradient(47.64deg, #F7E93F, #FB09B4, #9100F8);
+  }
+}

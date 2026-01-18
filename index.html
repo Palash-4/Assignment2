@@ -1,22 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="tailwind.css">
     <title>TechWave</title>
 </head>
-<body>
+
+<body class="bg-[#251247] text-white">
     <header>
+        <nav class=" flex items-center justify-between my-[30px] mx-4
+         min-[576px]:mx-10
+         min-[993px]:mx-[200px]">
+
+            <h1 class="text-2xl font-bold">Tech<span class="text-[#bf26aa]
+">Wave</span></h1>
+
+            <img class="w-6 h-6 cursor-pointer min-[576px]:hidden" src="./assets/hamburger-menu.png" alt="">
+
+            <div>
+                <ul class="hidden min-[576px]:flex space-x-5 text-base">
+                    <li>About</li>
+                    <li>Episodes</li>
+                    <li>host</li>
+                </ul>
+            </div>
+            <button class="hidden min-[576px]:flex bg-techwave rounded-2xl px-6 py-3 items-center gap-2">
+                <span>Subscribe</span>
+                <img class="w-4 h-4" src="./assets/ArrowRight.png" alt="arrow">
+            </button>
+
+        </nav>
+
 
     </header>
-    
+
     <main>
 
     </main>
 
     <footer>
-        
+
     </footer>
 </body>
+
 </html>

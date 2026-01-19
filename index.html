@@ -12,11 +12,9 @@
 <body class="bg-[#251247] text-white">
     <header>
         <nav class=" flex items-center justify-between my-[30px] mx-4
-         min-[576px]:mx-10
-         min-[993px]:mx-[200px]">
+         min-[576px]:mx-10 min-[993px]:mx-[200px]">
 
-            <h1 class="text-2xl font-bold">Tech<span class="text-[#bf26aa]
-">Wave</span></h1>
+            <h1 class="text-2xl font-bold">Tech<span class="text-[#bf26aa]">Wave</span></h1>
 
             <img class="w-6 h-6 cursor-pointer min-[576px]:hidden" src="./assets/hamburger-menu.png" alt="">
 
@@ -24,7 +22,7 @@
                 <ul class="hidden min-[576px]:flex space-x-5 text-base">
                     <li>About</li>
                     <li>Episodes</li>
-                    <li>host</li>
+                    <li>Host</li>
                 </ul>
             </div>
             <button class="hidden min-[576px]:flex bg-techwave rounded-2xl px-6 py-3 items-center gap-2">
@@ -40,7 +38,7 @@
             <div class="text-center relative">
 
                 <div class="relative mx-auto w-[200px] h-[200px] min-[576px]:w-[320px] min[576px]:h-[320px] min-[576px]: mt-18
-             min-[993px]:w-[420px] min-[993px]:h-[420px] min-[993px]:mb-35 flex items-center justify-center">
+             min-[993px]:w-[320px] min-[993px]:h-[320px] min-[993px]:mb-35 flex items-center justify-center">
 
                     <img class="w-full h-full rounded-full" src="./assets/hero-circle.png" alt="circle" />
                     <span
@@ -49,7 +47,7 @@
                     </span>
 
                     <img src="./assets/microphone.png" alt="mic"
-                        class="absolute w-[60px] h-[80px] min-[576px]:w-[90px] min-[576px]:h-[110px] min-[993px]:w-[120px] min-[993px]:h-[140px]" />
+                        class="absolute w-[60px] h-[80px] min-[576px]:w-[90px] min-[576px]:h-[110px] min-[993px]:w-[110px] min-[993px]:h-[150px]" />
 
                 </div>
 
@@ -58,7 +56,7 @@
                         TechWave
                     </h1>
                     <p>Your daily dose of tech insights, productivity hacks, and personal growth </p>
-                    <div class="flex items-center justify-center gap-6 mt-8">
+                    <div class="flex items-center justify-center gap-6 mt-8 mb-10">
 
                         <button
                             class="flex items-center gap-3 px-6 py-3 rounded-full bg-techwave text-white font-semibold hover:scale-105 transition">
@@ -183,7 +181,7 @@
                 <div class="bg-[#2a0f45] rounded-3xl overflow-hidden">
                     <a href="https://youtu.be/KKNCiRWd_j0?si=HT5MDvvOhLkdxivI" target="_blank">
                         <div class="relative">
-                            <img class="w-full h-48 object-cover" src="./assets/YT1.png" >
+                            <img class="w-full h-48 object-cover" src="./assets/YT1.png">
                             <img class="w-14 h-14 absolute inset-0 m-auto" src="./assets/youtube.png">
                         </div>
                     </a>
@@ -200,7 +198,7 @@
                 <div class="bg-[#2a0f45] rounded-3xl overflow-hidden">
                     <a href="https://youtu.be/vhQUgyS_XSE?si=FA2voRI2ckSZu5Mg" target="_blank">
                         <div class="relative">
-                            <img class="w-full h-48 object-cover" src="./assets/YT2.png" >
+                            <img class="w-full h-48 object-cover" src="./assets/YT2.png">
                             <img class="w-14 h-14 absolute inset-0 m-auto" src="./assets/youtube.png">
                         </div>
                     </a>
@@ -218,7 +216,7 @@
                 <div class="bg-[#2a0f45] rounded-3xl overflow-hidden">
                     <a href="https://youtu.be/fZmQ_aPXJAM?si=TdU3kJ2sFw3uYysW" target="_blank">
                         <div class="relative">
-                            <img class="w-full h-48 object-cover" src="./assets/YT3.png" >
+                            <img class="w-full h-48 object-cover" src="./assets/YT3.png">
                             <img class="w-14 h-14 absolute inset-0 m-auto" src="./assets/youtube.png">
                         </div>
                     </a>
@@ -236,12 +234,74 @@
             </div>
         </section>
 
+        <section class="flex flex-col items-center gap-4 ">
+            <div class="text-4xl font-bold text-center mb-12 ">
+                <h1>Meet the Host </h1>
+            </div>
+            <div class="bg-[#2a0f45] max-w-[1150px] w-full rounded-3xl 
+              flex flex-col md:flex-row 
+              items-center md:items-start 
+              p-8 md:p-12 gap-6">
+                <img class="min-[576px]:w-40 min-[576px]:h-40 min-[993px]:w-52 min-[993px]:h-52" src="./assets/host.png"
+                    alt="">
+                <div class="text-center min-[576px]:text-left">
+                    <h1 class="text-3xl font-bold mx-6">Alex Kumar</h1>
+                    <p class="mx-6 mt-2 text-sm">Tech entrepreneur, productivity expert, and lifelong learner. Alex has
+                        been in the tech industry for over 10 years, working with startups and Fortune 500 companies.
+                        Through TechWave, Alex shares insights from industry leaders and practical advice for anyone
+                        looking to grow in tech.</p>
+
+                    <div>
+                        <ul class="flex justify-center min-[993px]:justify-start min-[993px]:mx-6 gap-4 mt-6">
+                            <li><img class="w-12 h-12 border p-3 rounded-full border-white/40  "
+                                    src="./assets/instagram.png" alt=""></li>
+                            <li><img class="w-12 h-12 border p-3 rounded-full border-white/40 "
+                                    src="./assets/linkedin.png" alt=""></li>
+                            <li><img class="w-12 h-12 border p-3 rounded-full border-white/40 " src="./assets/x.png"
+                                    alt=""></li>
+                            <li><img class="w-12 h-12 border p-3 rounded-full border-white/40 "
+                                    src="./assets/youtube.png" alt=""></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
 
     </main>
 
-    <footer>
+    <footer class="bg-[#1b0b2e] bg-no-repeat bg-center bg-cover
+         py-10 min-[993px]:py-20" style="background-image: url('./assets/footer-bg.png');">
+        <div class="max-w-6xl mx-auto px-4
+           flex flex-col items-center text-center gap-5">
 
+            <h1 class="text-3xl min-[576px]:text-4xl min-[993px]:text-5xl
+             font-bold text-white">
+                Tech<span class="text-[#bf26aa]">Wave</span>
+            </h1>
+
+            <div class="grid grid-cols-2 gap-4 text-sm mt-2 min-[576px]:flex min-[576px:flex-wrap min-[576px]:justify-center min-[993px]:gap-9">
+
+                <div class="flex items-center gap-2">
+                    <img class="w-4 h-4" src="./assets/spotify.png"> Spotify
+                </div>
+                <div class="flex items-center gap-2">
+                    <img class="w-4 h-4" src="./assets/apple-podcast.png"> Apple Podcasts
+                </div>
+                <div class="flex items-center gap-2">
+                    <img class="w-4 h-4" src="./assets/youtube-podcast.png"> YouTube
+                </div>
+                <div class="flex items-center gap-2">
+                    <img class="w-4 h-4" src="./assets/twitter.png"> Twitter
+                </div>
+            </div>
+
+            <p class="text-xs mt-2">
+                © 2026 TechWave Podcast. All rights reserved.
+            </p>
+
+        </div>
     </footer>
+
 </body>
 
 </html>
